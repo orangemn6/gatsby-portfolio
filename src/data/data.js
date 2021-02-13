@@ -1,8 +1,8 @@
 module.exports = {
-    SiteTitle: 'Abdelali',
+    SiteTitle: 'Orangemn6',
     Sitelogo: '#',
-    SiteLogoText: 'Abdelali',
-    SiteAuthor: 'Abdelali Dahir',
+    SiteLogoText: 'Orangemn6',
+    SiteAuthor: 'Jacob Goldstein',
     SiteDescription: 'Front End Developer',
     defaultDescription: 'Software engineer!',
     githubApiQuery: `query ($number_of_repos: Int!) {
