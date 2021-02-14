@@ -7,7 +7,6 @@ module.exports = {
     defaultDescription: 'Software engineer!',
     githubApiQuery: `query ($number_of_repos: Int!) {
     viewer {
-      name
       avatarUrl
       isHireable
       resourcePath
