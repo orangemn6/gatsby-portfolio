@@ -6,7 +6,6 @@ module.exports = {
     SiteDescription: 'Front End Developer',
     defaultDescription: 'Software engineer!',
     githubApiQuery: `query ($number_of_repos: Int!) {
-	data{}
     viewer {
       avatarUrl
       isHireable
