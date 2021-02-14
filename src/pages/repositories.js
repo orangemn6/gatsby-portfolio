@@ -37,7 +37,6 @@ export const gitHubQuery = graphql`
     githubData {
       data {
         viewer {
-          name
           avatarUrl
           repositories {
             nodes {
