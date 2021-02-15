@@ -1,16 +1,13 @@
 ---
-title: "6 Terminal Commands You Should Know"
-author: Jacob Goldstein
-date: 2020-10-28T10:05:01-04:00
-draft: true
-comments: true
-categories:
- - Shell
- - Linux
-tags:
- - Shell
- - Linux
+title: 6 Terminal Commands you should know!
+categories: ['Shell', 'Linux']
+image: './terminal.jpg'
+imageCredit: https://redhat.com/
+date: "2020-10-28T10:05:01-04:00"
+time: 3
+description: "Awesome terminal commands!"
 ---
+
 
 
 # 6 Terminal Commands You Should Know
