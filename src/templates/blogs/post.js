@@ -39,7 +39,7 @@ const BlogPost = ({data, pageContext, location}) => {
                 
                 <ArticleBody dangerouslySetInnerHTML={{ __html: post.html }} />
               </ArticlePost>
-
+				 <Comments/>
               <nav>
                 <NaviagtionList>
                   <NaviagtionLi>
