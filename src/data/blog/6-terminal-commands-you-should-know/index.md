@@ -5,7 +5,7 @@ image: './terminal.jpg'
 imageCredit: https://redhat.com/
 date: "2020-10-28T10:05:01-04:00"
 time: 3
-description: "Awesome terminal commands!"
+description: "From switching your private keys to directory listings with hidden files"
 ---
 
 
@@ -13,8 +13,6 @@ description: "Awesome terminal commands!"
 # 6 Terminal Commands You Should Know
 
 From switching your private keys to directory listings with hidden files
-
-![](https://cdn-images-1.medium.com/max/7764/1*e1iypsouAGB6jABtPW-JyA.jpeg)
 
 As a developer, there are two key things that are paramount to a productive setup: *speed and efficiency.*
 
