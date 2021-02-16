@@ -231,34 +231,6 @@ This process **simplifies the number of steps** needed to deploy a website to it
 
 Netlify also enables very powerful form integration. By adding a data attribute in a form in your Gatsby website Netlify will detect your form and handle all the data processing for you.
 
-<form name\="contact" method\="POST" data-netlify\="true"\>
-    <p\>
-        <label\>Your Name:
-            <input type\="text" name\="name" />
-        </label\>
-    </p\>
-    <p\>
-        <label\>Your Email:
-            <input type\="email" name\="email" />
-        </label\>
-    </p\>
-    <p\>
-        <label\>Your Role:
-            <select name\="role\[\]" multiple\>
-                <option value\="leader"\>Leader</option\>
-                <option value\="follower"\>Follower</option\>
-            </select\>
-        </label\>
-    </p\>
-    <p\>
-        <label\>Message:
-            <textarea name\="message"\></textarea\>
-        </label\>
-    </p\>
-    <p\>
-        <button type\="submit"\>Send</button\>
-    </p\>
-</form\>
 
 When a submission has been sent, you can view it inside the Netlify dashboard.
 
@@ -266,26 +238,7 @@ When a submission has been sent, you can view it inside the Netlify dashboard.
 
 Additionally, there is a very effective spam filter by adding the honey pot data attribute.
 
-<form name\="contact" method\="POST" netlify-honeypot\="bot-field" data-netlify\="true"\>
-    <p class\="hidden"\>
-        <label\>Don’t fill this out if you're human:
-            <input name\="bot-field" />
-        </label\>
-    </p\>
-    <p\>
-        <label\>Email:
-            <input type\="text" name\="email" />
-        </label\>
-    </p\>
-    <p\>
-        <label\>Message:
-            <textarea name\="message"\></textarea\>
-        </label\>
-    </p\>
-    <p\>
-        <button type\="submit"\>Send</button\>
-    </p\>
-</form\>
+
 
 Overall, due to Gatsby’s assets being incredibly lightweight, deployment with most hosting services will be relatively straightforward.
 
