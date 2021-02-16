@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   repo: orangemn6/gatsby-portfolio
-  branch: main
+  branch: master
 
 media_folder: static/assets
 public_folder: /assets
