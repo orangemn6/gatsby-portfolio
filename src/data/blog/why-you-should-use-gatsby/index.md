@@ -19,7 +19,7 @@ These static assets contain **content**, **images**, **CSS**, **JavaScript** and
 
 But we are just touching the surface here, let’s explore 10 reasons why Gatsbyjs should be used in your next project.
 
-Amazing Open Source Community
+### Amazing Open Source Community
 -----------------------------
 
 ![](https://www.fortniterandomizer.com/wp-content/uploads/2019/10/Webp.net-resizeimage-1.jpg)
@@ -59,7 +59,7 @@ Additionally, the Gatsby team also [offer swag](https://www.gatsbyjs.org/contrib
 
 This reinforces the idea of Gatsbyjs being community-focused. It is evident that they are looking for people as passionate about web tech as they are.
 
-Investor Funding
+### Investor Funding
 ----------------
 
 As of the 26th of September, [Kyle Matthews](https://www.gatsbyjs.org/contributors/kyle-mathews/), the founder of Gatsby, announced that they have received [15 million in series A funding](https://www.gatsbyjs.org/blog/2019-09-26-announcing-gatsby-15m-series-a-funding-round/).
@@ -87,7 +87,7 @@ Without having ever used this feature I couldn’t comment on how good this is b
 
 It’s unlikely that the pool of series A investors would have been interested in this subscription feature if it hadn’t provided tangible value for many different development teams.
 
-Familiar Tooling
+### Familiar Tooling
 ----------------
 
 ![](https://www.fortniterandomizer.com/wp-content/uploads/2019/10/Webp.net-resizeimage-3.jpg)
@@ -110,7 +110,7 @@ A lot of Gatsby’s performance benefits can be attributed to its default Webpac
 
 Overall, this provided familiarity ensures that developers are working in a configuration environment that is familiar to them. As a result, using Gatsby is not as much of a departure from other configuration settings of modern front-end stacks.
 
-Website Performance
+### Website Performance
 -------------------
 
 ![](https://www.fortniterandomizer.com/wp-content/uploads/2019/10/Webp.net-resizeimage-2-1024x311.png)
@@ -129,7 +129,7 @@ Remember, that the end result of these compiled assets is still producing state 
 
 Having this full app-like experiences ensure that there are no reloads between pages. Your users will not experience any significant loading times and will have smooth transitions between pages.
 
-Expansive Plugin Ecosystem
+### Expansive Plugin Ecosystem
 --------------------------
 
 ![](https://www.fortniterandomizer.com/wp-content/uploads/2019/10/plugins.png)
@@ -161,7 +161,7 @@ Some other notable plugins include:
 
 This is only scratching the surface, there are many other practical plugins available to improve a Gatsby site. If the series A investment is anything to go by, there will undoubtedly be a significant expansion of the plugin ecosystem as Gatsby’s popularity grows.
 
-Smart Image Optimisation
+### Smart Image Optimisation
 ------------------------
 
 ![](https://www.fortniterandomizer.com/wp-content/uploads/2019/10/Webp.net-resizeimage-4.jpg)
@@ -193,7 +193,7 @@ This process reduces the bandwidth of the initial loading time of the image asse
 
 There is a serious amount of flexibility here, more than I can ever see myself using. However, the sheer capabilities available to optimize images are very impressive. It really is a step above platforms that store and process images such as WordPress and Contentful.
 
-GraphQL
+### GraphQL
 -------
 
 ![](https://www.fortniterandomizer.com/wp-content/uploads/2019/10/Webp.net-resizeimage-5-1024x257.jpg)
@@ -206,7 +206,7 @@ In the context of Gatsbyjs, GraphQL requests come back in the exact shape that w
 
 GraphQL also features heavily when it comes to image optimization. It allows explicit image formats/sizes to be requested from a data source at build time. Gatsby was one of the first proponents to use GraphQL on the frontend. As a result, lots of the other frontend technologies have adapted it too.
 
-Seamless Hosting Options
+### Seamless Hosting Options
 ------------------------
 
 ![](https://www.fortniterandomizer.com/wp-content/uploads/2019/10/Webp.net-resizeimage-6.jpg)
@@ -242,7 +242,7 @@ Additionally, there is a very effective spam filter by adding the honey pot data
 
 Overall, due to Gatsby’s assets being incredibly lightweight, deployment with most hosting services will be relatively straightforward.
 
-CMS Integration Options
+### CMS Integration Options
 -----------------------
 
 Gatsby also forgoes with **monolithic CMS systems**, it instead will allow the transformation of CMS services to equivalent headless versions. A headless CMS is essentially a back-end only storage for content. Its a repository for data that makes its content accessible via a **RESTful API**.
@@ -259,7 +259,7 @@ Some of these options include:
 
 For each of these options, Gatsby has an associated plugin that will be used to pull data from these content sources. Once retrieved, built and deployed, Gatsby simply becomes the view layer for displaying this content.
 
-Improved Security
+### Improved Security
 -----------------
 
 ![](https://www.fortniterandomizer.com/wp-content/uploads/2019/10/Webp.net-resizeimage-7.jpg)
@@ -272,7 +272,7 @@ As a result, it is highly unlikely that your data can be compromised from a mali
 
 Gatsby will only take the required data from its data source an display that in the rendered assets.
 
-The Great Gatsby
+### The Great Gatsby
 ----------------
 
 Well, I hope I’ve convinced you about the perks of using Gatsby for your next website. If you haven’t realized already, I am a huge advocate of Gatsby. As a developer, it ticks all the boxes in terms of what I look for in exciting web technology.
