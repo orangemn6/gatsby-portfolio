@@ -11,7 +11,9 @@
 HUGO_POSTS_DIR='src/data/blog/'
 
 # Post title
-TITLE=''
+read -p 'Title:  ' TITLE
+read -p 'Description:  ' DESC
+read -p 'Tags:   '  TAGS
 
 for var in "$@"
 do
@@ -36,7 +38,7 @@ FILENAME=index.md
 # go to post directory
 cd ${HUGO_POSTS_DIR}
 
-mkdir ${TITLE_STRIPPED}
+mkdir $TITLE_STRIPPED
 
 cd ${TITLE_STRIPPED}
 
@@ -46,13 +48,13 @@ touch ${FILENAME}
 # add YAML front matter and trim leading blank line
 echo -e "
 ---
-title: 
-categories: ['frameworks', 'css', 'performance']
+title: ${TITLE}
+categories: [${TAGS}]
 image: './e4d5ed47ee58aa859995cae2a4e83221.webp'
 imageCredit: https://dribbble.com/shots/13972666-faces
-date: "2015-05-01T22:12:03.284Z"
+date: "${DATE}"
 time: 3
-description: "description"
+description: "${DESC}"
 ---
 
 " | sed '/./,$!d' > ${FILENAME}
